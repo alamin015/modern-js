@@ -5,7 +5,7 @@
 
 # 1.Truthy and Falsy values:
 
-```
+```js
 const type = true;
 if(type){
     console.log("This block is executed when it is true")

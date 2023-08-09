@@ -13,3 +13,15 @@
 
 # Practice 2:
  - [x] hello world how are you
+ - awesome symbol :tada:
+
+ # Awesome alert: 
+
+ > [!NOTE]
+ > Highlights information that users should take into account, even when skimming.
+
+ > [!IMPORTANT]
+ > Crucial information necessary for users to succeed.
+
+ > [!WARNING]
+ > Critical content demanding immediate user attention due to potential risks.

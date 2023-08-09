@@ -34,3 +34,17 @@ if(type){
 
 //output will be: This block is executed when it is false
 ```
+
+## 2.Ternary operator: 
+
+ > [!IMPORTANT]
+ > Shorthand method of if else condition.
+
+ ```js
+ // example 
+
+let age = 18;
+let type = age>=18 ? "Adult" : "Child";
+console.log(type)
+// output will be Adult;
+ ```

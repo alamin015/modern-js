@@ -25,3 +25,7 @@
 
  > [!WARNING]
  > Critical content demanding immediate user attention due to potential risks.
+
+ # Extra practice-
+
+ > my name is alamin. and from Bangladesh. i want to be a pro developer but all in vain i do not know how become a pro. still trying to develop myself for showing my class to others.

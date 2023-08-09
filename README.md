@@ -5,6 +5,20 @@
 
 # 1.Truthy and Falsy values:
 
+```
+const type = true;
+if(type){
+    console.log("This block is executed when it is true")
+}else {
+    console.log("This block is executed when it is false")
+}
+
+
+```
+
+
+
+
 1. First List
     - Second List
     - Third List

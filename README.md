@@ -12,4 +12,4 @@
         - `console.log("your code")`
 
 # Practice 2:
- - [ ] hello world how are you
+ - [x] hello world how are you

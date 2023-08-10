@@ -1,5 +1,5 @@
 
-# 1.Truthy and Falsy values:
+## 1.Truthy and Falsy values:
 
  > [!IMPORTANT]
  > In Js falsy values are: false, "", null, undefined, NaN, 0.
@@ -83,3 +83,36 @@ console.log(result)
 
  > [!warning]
  > if there is same value available in a array, finIndex method gives us first match result and program stop executing.
+
+ ## 5. Destructuring
+
+> Destructuring is important term in javascript. We can realize of it's usecase when we work on react js.So every developer should keep clear concept about destructuring.
+
+```js
+
+// Object destructuring
+// example 1 
+const myObj = {
+    country: "Bangladesh",
+    language: "Bengali",
+    area: "147570"
+}
+
+const {country,language,area} = myObj;
+console.log(country,language,area);
+
+// example 2;
+const university1 = {
+    name: "BSMRSTU",
+    seat: 3000,
+    masters: {
+        name: "physics"
+    }
+    
+}
+
+const {masters: {name}} = university1;
+console.log(name)
+
+
+```

@@ -129,3 +129,17 @@ const {extra: {laptop} = {} } = student;
 console.log(laptop)
 ```
 Here we can increase security because extra property may not be available. That's why we should give default value which is empty object. if there is no extra property then output will be undefined but not error.
+
+```js
+// Array destructuring
+
+const numbers = [1,2,4,9,5,6,7];
+
+const [a,b] = numbers;
+console.log(a,b);
+
+// again
+ const [,two,,,,six] = numbers;
+ console.log(two,six)
+
+```

@@ -36,3 +36,15 @@ const student = {
 // here we can increase security because extra property may not be available
 const {extra: {laptop} = {} } = student;
 console.log(laptop)
+
+
+// Array destructuring
+
+const numbers = [1,2,4,9,5,6,7];
+
+const [a,b] = numbers;
+console.log(a,b);
+
+// again
+ const [,two,,,,six] = numbers;
+ console.log(two,six)

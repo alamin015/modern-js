@@ -149,4 +149,13 @@ console.log(a,b);
 
  const [,[,fiveH]] = money;
  console.log(fiveH);
+
+
+  // useCase
+
+let numb1 = 10;
+let numb2 = 20;
+
+[numb2,numb1] = [numb1,numb2]
+console.log(numb1,numb2)
 ```

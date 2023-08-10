@@ -47,4 +47,11 @@ console.log(a,b);
 
 // again
  const [,two,,,,six] = numbers;
- console.log(two,six)
+ console.log(two,six);
+
+ // nested
+
+ const money = [23,[400,500,655],22,3,4,555];
+
+ const [,[,fiveH]] = money;
+ console.log(fiveH);

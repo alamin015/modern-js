@@ -23,3 +23,16 @@ const university1 = {
 const {masters: {name}} = university1;
 console.log(name)
 
+// example 3 
+
+const student = {
+    name: "alamin",
+    age: 21,
+    extra: {
+        laptop: 1,
+        mobile: 1,
+    }
+}
+// here we can increase security because extra property may not be available
+const {extra: {laptop} = {} } = student;
+console.log(laptop)
